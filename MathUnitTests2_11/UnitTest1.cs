@@ -15,14 +15,15 @@ namespace MathUnitTests2_11
         }
 
         [Test]
-        [Ignore("Because I wanted to!")]
+        //[Ignore("Because I wanted to!")]
         public void Add_WhenCalled_ReturnTheSumOfArguments()
         {
 
 
             var result = _math.Add(1, 2);
 
-            Assert.That(result, Is.EqualTo(3));
+             Assert.That(result, Is.EqualTo(3));
+           
         }
         [Test]
         [TestCase(2, 1, 2)]
